@@ -1,0 +1,41 @@
+img {
+    @include img-fluid;
+}
+
+//Lazysizes
+.imagecontainer {
+    position: relative;
+    max-width: 100%;
+}
+
+.imagecontainer-img-cover,
+.imagecontainer-img-contain {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.imagecontainer-img-cover {
+    object-fit: cover;
+    font-family: "object-fit: cover";
+    object-position: 50% 50%;
+}
+
+.imagecontainer-img-contain {
+    object-fit: contain;
+    font-family: "object-fit: contain";
+}
+
+//Fade image in after load
+.lazyload,
+.lazyloading {
+  opacity: 0;
+}
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 300ms;
+}

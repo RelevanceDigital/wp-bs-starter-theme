@@ -1,0 +1,39 @@
+@import "bootstrap";
+@import "custom/custom";
+
+
+/* Main column width */
+.wp-block {
+  max-width: 1200px;
+}
+
+/* Width of "wide" blocks */
+.wp-block[data-align="wide"] {
+  max-width: 1200px;
+}
+
+/* Width of "full-wide" blocks */
+.wp-block[data-align="full"] {
+  max-width: none;
+}
+
+/*Remove lazyload fadein*/
+.lazyload,
+.lazyloading {
+  opacity: 1;
+}
+
+//Stops object-fit breaking
+img.imagecontainer-img-cover {
+  height: 100%;
+}
+
+//Undo sticky footer
+html, body {
+  height: inherit;
+}
+
+.site {
+  min-height: 0;
+  height: inherit !important;
+}

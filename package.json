@@ -1,0 +1,37 @@
+{
+  "name": "wp-bs-starter-theme",
+  "version": "1.0.0",
+  "description": "A WordPress theme based on Underscores and Bootstrap",
+  "main": "index.php",
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "lazysizes": "^5.3.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "imagemin-jpeg-recompress": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "readline-sync": "^1.4.10",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-connect": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-insert-lines": "latest",
+    "gulp-rename": "latest",
+    "gulp-replace": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/RelevanceDigital/wp-bs-starter-theme.git"
+  },
+  "author": "Relevance Digital",
+  "license": "MIT",
+  "homepage": "https://github.com/RelevanceDigital/wp-bs-starter-theme"
+}

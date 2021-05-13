@@ -1,0 +1,102 @@
+# A mix of:
+# https://gist.github.com/octocat/9257657
+# https://github.com/yiisoft/yii2/blob/master/.gitignore
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# phpstorm project files #
+##########################
+.idea
+
+# netbeans project files #
+##########################
+nbproject
+
+# zend studio for eclipse project files #
+#########################################
+.buildpath
+.project
+.settings
+
+# sublime text project / workspace files #
+##########################################
+*.sublime-project
+*.sublime-workspace
+
+# windows thumbnail cache #
+###########################
+Thumbs.db
+
+# composer vendor dir #
+#######################
+/vendor
+# cubrid install dir #
+######################
+/cubrid
+
+# composer itself is not needed #
+#################################
+composer.phar
+
+# composer.lock in applications is ignored since it's automatically created by composer when application is installed #
+#######################################################################################################################
+*/composer.lock
+
+# Mac DS_Store Files #
+######################
+.DS_Store
+
+# phpunit itself is not needed #
+################################
+phpunit.phar
+# local phpunit config #
+########################
+/phpunit.xml
+
+# NPM packages #
+################
+/node_modules
+package-lock.json
+.env
+npm-debug.log
+
+# Generated/Compiled Files #
+############################
+#css/*
+#assets/*

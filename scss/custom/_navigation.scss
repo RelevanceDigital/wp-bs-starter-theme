@@ -1,0 +1,78 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.main-navigation {
+  .navbar-nav {
+
+    .dropdown {
+
+      //Touch behaviour, uses js touch detection to add classes
+      &.show {
+        @include media-breakpoint-up(lg) {
+          .dropdown-toggle {
+            &:after {
+              display: block;
+            }
+          }
+        }
+
+        > .dropdown-menu {
+          display: block;
+        }
+      }
+
+      //We need to override the hover behaviour
+      //as we have removed the data-toggle attribute to make top level items work
+      &:hover {
+        > .dropdown-menu {
+          display: block;
+        }
+      }
+
+    }
+
+  }
+}
+
+// Basic post navigation styles
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+  .site-main & {
+    margin: 0 0 1.5em;
+    overflow: hidden;
+  }
+
+  .nav-previous {
+    float: left;
+    width: 50%;
+  }
+
+  .nav-next {
+    float: right;
+    text-align: right;
+    width: 50%;
+  }
+}
+
+//Numbered pagination
+.page-numbers {
+  @extend .pagination;
+  @extend .justify-content-center;
+
+  li {
+    @extend .page-item;
+
+    .page-numbers {
+      @extend .page-link;
+
+      &.current {
+        color: $white;
+        background-color: $primary;
+        border-color: $primary;
+      }
+    }
+  }
+}

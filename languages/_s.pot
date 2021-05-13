@@ -1,0 +1,361 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: _s\n"
+"POT-Creation-Date: 2021-05-13 22:29+0100\n"
+"PO-Revision-Date: 2021-05-13 22:29+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:50
+msgid "White"
+msgstr ""
+
+#: functions.php:55
+msgid "Black"
+msgstr ""
+
+#: functions.php:60
+msgid "Blue"
+msgstr ""
+
+#: functions.php:65
+msgid "Indigo"
+msgstr ""
+
+#: functions.php:70
+msgid "Purple"
+msgstr ""
+
+#: functions.php:75
+msgid "Pink"
+msgstr ""
+
+#: functions.php:80
+msgid "Red"
+msgstr ""
+
+#: functions.php:85
+msgid "Orange"
+msgstr ""
+
+#: functions.php:90
+msgid "Yellow"
+msgstr ""
+
+#: functions.php:95
+msgid "Green"
+msgstr ""
+
+#: functions.php:100
+msgid "Teal"
+msgstr ""
+
+#: functions.php:105
+msgid "Cyan"
+msgstr ""
+
+#: functions.php:113
+msgid "Small"
+msgstr ""
+
+#: functions.php:118
+msgid "Normal"
+msgstr ""
+
+#: functions.php:123
+msgid "Large"
+msgstr ""
+
+#: functions.php:128
+msgid "Huge"
+msgstr ""
+
+#: functions.php:143
+msgid "Primary"
+msgstr ""
+
+#: functions.php:144
+msgid "Footer"
+msgstr ""
+
+#: header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:34 header.php:35
+msgid "Toggle navigation"
+msgstr ""
+
+#: inc/customizer.php:23
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer.php:24
+msgid "Add {year} to replace with the current year"
+msgstr ""
+
+#: inc/customizer.php:30
+msgid "Social Networks"
+msgstr ""
+
+#: inc/customizer.php:40
+msgid "Facebook Link"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid "Twitter Link"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Linkedin Link"
+msgstr ""
+
+#: inc/customizer.php:60
+msgid "YouTube Link"
+msgstr ""
+
+#: inc/customizer.php:67
+msgid "Instagram Link"
+msgstr ""
+
+#: inc/customizer.php:73
+msgid "Custom Code"
+msgstr ""
+
+#: inc/customizer.php:82
+msgid "After Opening <head> Tag"
+msgstr ""
+
+#: inc/customizer.php:89
+msgid "Before Closing </head> Tag"
+msgstr ""
+
+#: inc/customizer.php:96
+msgid "After Opening <body> Tag"
+msgstr ""
+
+#: inc/customizer.php:103
+msgid "Before Closing </body> Tag"
+msgstr ""
+
+#: inc/template-functions.php:171
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: inc/template-functions.php:189
+msgid "Name"
+msgstr ""
+
+#: inc/template-functions.php:191
+msgid "Email"
+msgstr ""
+
+#: inc/template-functions.php:193
+msgid "Website"
+msgstr ""
+
+#: inc/template-functions.php:197
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:69
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/woocommerce.php:227
+msgid "View your shopping cart"
+msgstr ""
+
+#. translators: number of items in the mini cart.
+#: inc/woocommerce.php:231
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/wp_bootstrap_comments.php:198
+#, php-format
+msgid "%s <span class=\"says visually-hidden\">says:</span>"
+msgstr ""
+
+#. translators: 1: comment date, 2: comment time
+#: inc/wp_bootstrap_comments.php:206
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/wp_bootstrap_comments.php:210 inc/wp_bootstrap_comments.php:291
+msgid "Edit"
+msgstr ""
+
+#: inc/wp_bootstrap_comments.php:214
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/wp_bootstrap_comments.php:291
+msgid "Pingback:"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:2
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:2
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:3
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:24 template-parts/content.php:51
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:37
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:40
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "_s"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://underscores.me/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A custom WordPress theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Me"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://automattic.com/"
+msgstr ""

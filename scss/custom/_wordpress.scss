@@ -1,0 +1,85 @@
+// Compatibility for some core WordPress output
+
+//Vars
+$columns: (
+        1: 100%,
+        2: 50%,
+        3: 33.33%,
+        4: 25%,
+        5: 20%,
+        6: 16.66%,
+        7: 14.28%,
+        8: 12.5%,
+        9: 11.11%
+) !default;
+
+$columns__margin: 3.8% !default;
+
+//Mixins
+// Rem output with px fallback
+@mixin wp-font-size($sizeValue: 1) {
+  font-size: ($sizeValue * 16) * 1px;
+  font-size: $sizeValue * 1rem;
+}
+
+// Center block
+@mixin wp-center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Column width with margin
+@mixin wp-column-width($numberColumns: 3) {
+  width: map-get( $columns, $numberColumns ) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
+}
+
+//Styles
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em;
+}
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
+}
+
+.aligncenter {
+  clear: both;
+  @include wp-center-block;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  @extend .visually-hidden;
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+
+.gallery {
+  margin-bottom: 1.5em;
+}
+
+.gallery-item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+
+  // Loops to enumerate the classes for gallery columns.
+  @for $i from 2 through 9 {
+    .gallery-columns-#{$i} & {
+      max-width: map-get( $columns, $i );
+    }
+  }
+}
+
+.gallery-caption {
+  display: block;
+}
