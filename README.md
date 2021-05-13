@@ -102,7 +102,7 @@ $disable_lazy - can be set to true to product a srcset img tag that isn't lazylo
 ## ACF Blocks
 
 Advanced Custom Fields blocks are registered in /inc/acf-blocks.php  
-This file contains a basic example to register a block and add it to a custo block category.  
+This file contains a basic example to register a block and add it to a custom block category.  
 There is a link at the top of the file to the documentation for all options available.
 
 The basic process to add a new block is:
