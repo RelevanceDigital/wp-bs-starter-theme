@@ -93,6 +93,9 @@ class wp_bootstrap_navwalker extends Walker_Nav_Menu {
 			} else {
 				$atts['href'] = ! empty( $item->url ) ? $item->url : '';
 				$atts['class']			= 'nav-link';
+				if ( in_array( 'current-menu-item', $classes ) ) {
+					$atts['class'] .= ' active';
+				}
 			}
 
 			$atts = apply_filters( 'nav_menu_link_attributes', $atts, $item, $args );
