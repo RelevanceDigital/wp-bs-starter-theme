@@ -36,7 +36,7 @@ function _s_register_acf_block_types() {
 		'render_template' => 'template-parts/blocks/text-custom-width.php',
 		'category'        => '_s',
 		'icon'            => 'editor-paragraph',
-		'keywords'        => array( 'text' ),
+		'keywords'        => array( __( 'text', '_s' ) ),
 	) );
 	*/
 
