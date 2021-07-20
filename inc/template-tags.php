@@ -160,7 +160,7 @@ if ( ! function_exists( '_s_lazy_image' ) ) :
 	/**
 	 * Return a responsive image tag without the cropped images from a wp image array
 	 */
-	function _s_lazy_image( $img_arr, $default = null, $classes = null, $fit = null, $disable_lazy = false ) {
+	function _s_lazy_image( $img_arr, $default = null, $classes = '', $fit = null, $disable_lazy = false ) {
 
 		if ( is_int( $img_arr ) ) {
 			$img_arr = wp_prepare_attachment_for_js( $img_arr );
@@ -180,6 +180,7 @@ if ( ! function_exists( '_s_lazy_image' ) ) :
 		} else {
 			$src    = 'data-src="';
 			$srcset = 'data-srcset="';
+			$classes .= ' lazyload ';
 		}
 
 		$tag = '<img ';
@@ -222,7 +223,7 @@ if ( ! function_exists( '_s_lazy_image' ) ) :
 			$classes = $classes . ' imagecontainer-img-' . $fit;
 		}
 		//Add the classes
-		$tag .= $classes ? 'class="lazyload ' . $classes . '"' . "\n" : 'class="lazyload"' . "\n";
+		$tag .= 'class="' . $classes . '"' . "\n";
 		//Add the alt
 		$tag .= 'alt="' . $img_arr['alt'] . '"' . "\n";
 		//Close the tag
