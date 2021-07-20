@@ -191,7 +191,7 @@ if ( ! function_exists( '_s_lazy_image' ) ) :
 			$tag .= $src . $img_arr['url'] . '" ' . "\n";
 		}
 
-		if ( ! is_admin() || $disable_lazy ) {
+		if ( ! is_admin() && ! $disable_lazy ) {
 			//Add a blank image on pageload
 			$tag .= 'srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" ' . "\n";
 		}
