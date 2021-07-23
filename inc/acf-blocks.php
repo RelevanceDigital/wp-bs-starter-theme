@@ -22,7 +22,7 @@ function _s_block_categories( $categories ) {
 		$categories
 	);
 }
-add_filter( 'block_categories', '_s_block_categories', 10, 2 );
+add_filter( 'block_categories_all', '_s_block_categories', 10, 2 );
 */
 
 function _s_register_acf_block_types() {
