@@ -116,6 +116,7 @@ Notes:
 - In the admin editor, images using the lazy load function have lazyloading automatically disabled so they can be viewed in the editor.
 - If you need a unique identifier for any JavaScript, use `$block['id']` to get the ID of the block.
 - To cut down on database queries, use `get_fields()`  to get an array of all fields rather than calling each one individually with `get_field( 'field_name' )`
+- The main content ares **must** be wrapped in a `container` for standard blocks to not be the full width of the screen.
 - To make a block full-width and break out of the main container, give it the class `alignfull` (From /scss/custom/_gutenberg.scss)
 - If you use `alignfull` then you can remove the default alignment options for the block with the supports attribute:
 
