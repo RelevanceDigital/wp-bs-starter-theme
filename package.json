@@ -16,7 +16,7 @@
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-connect": "latest",
-    "gulp-imagemin": "latest",
+    "gulp-imagemin": "7.1.0",
     "gulp-insert-lines": "latest",
     "gulp-rename": "latest",
     "gulp-replace": "latest",
