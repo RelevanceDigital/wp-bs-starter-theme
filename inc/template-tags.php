@@ -145,9 +145,17 @@ function _s_pagination_links() {
 	if ($total_pages > 1){
 		$current_page = max(1, get_query_var('paged'));
 
+		$base = get_pagenum_link( 1 ) . '%_%';
+		$format = 'page/%#%';
+
+		if (is_search()) {
+			$base = get_home_url() . '%_%';
+			$format = '/page/%#%/';
+		}
+
 		echo paginate_links(array(
-			'base' => get_pagenum_link(1) . '%_%',
-			'format' => 'page/%#%',
+			'base' => $base,
+			'format' => $format,
 			'type'      => 'list',
 			'current' => $current_page,
 			'total' => $total_pages,
