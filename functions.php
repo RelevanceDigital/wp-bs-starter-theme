@@ -234,7 +234,7 @@ function _s_scripts() {
 
 	wp_enqueue_script( '_s-lazy', get_template_directory_uri() . '/assets/js/lazysizes.min.js', array('_s-lazy-of'), null, false );
 
-	wp_enqueue_script( '_s-bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js', array(), null, true );
+	wp_enqueue_script( '_s-bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js', array(), null, true );
 
 	wp_enqueue_script( '_s-script', get_template_directory_uri() . '/assets/js/site.js', array('jquery','_s-bootstrap'), '0', true );
 
